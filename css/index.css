@@ -53,3 +53,182 @@ section {
 section h2 {
   font-size: 50px;
 }
+
+/* navigation */
+.nav-whole {
+  padding-top: 50px;
+  display: flex;
+  align-items: baseline;
+}
+
+.navbar-brand {
+  color: #FFE000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  font-family: 'Pacifico' !important;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+/*  
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+  display: flex;
+  width: 268px;
+  height: 66px;
+  flex-direction: column;
+  justify-content: center;
+*/
+
+#mainNav li {
+  width: 114px;
+  height: 31px;
+  color: #FFF;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.63px;
+}
+
+.mountain-bg {
+  background-image: url(../images/bg-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1922px;
+  height: 1080px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text h1 {
+  display: flex;
+  width: 724px;
+  height: 477px;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  font-family: Catamaran;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; /* 69.7px */ 
+}
+
+.hero-text h1 strong {
+  color: #FFF;
+  font-family: Catamaran;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.5%;
+}
+
+.hero-text button {
+  width: 335px;
+  height: 65px;
+  border-radius: 100px;
+  border: 1px solid #FFF;
+  background: none;
+}
+
+.device-container img {
+  width: 443px;
+  height: 894px;
+}
+
+.download {
+  width: 1922px;
+  height: 797px;
+  background: #FDC949;
+}
+
+.download .container .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.download h2 {
+  color: #000;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 113%; /* 113px */
+  letter-spacing: -0.5px;
+  margin-left: 0px;
+}
+
+.download p {
+  color: #000;
+  text-align: center !important;
+  font-family: Catamaran;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 113%; /* 29.38px */
+  letter-spacing: 0.52px;
+  padding-top: 23px;
+  padding-bottom: 20px;
+}
+
+.badges a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.badges a img {
+  padding: 0 5px 0 5px;
+}
+
+#features .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-item img {
+  width: 366px;
+  height: 366px;
+  border-radius: 50%;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial-item h5 {
+  color: rgba(0, 0, 0, 0.80);
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 113%; /* 29.38px */
+  letter-spacing: 0.52px;
+  padding-top: 20px;
+}
+
+.testimonial-item p {
+  color: rgba(0, 0, 0, 0.80);
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 113%; /* 29.38px */
+  letter-spacing: 0.52px;
+}
+
