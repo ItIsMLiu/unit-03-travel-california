@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 
    <!-- Custom styles for this template -->
    <link href="css/index.css" rel="stylesheet">
@@ -31,12 +32,19 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg" id="mainNav">
       <div class="container nav-whole">
-        <a class="navbar-brand" href="">Travel California</a>
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">DOWNLOAD</li>
-          <li class="nav-item">FEATURES</li>
-          <li class="nav-item">CONTACT</li>
-        </ul>
+        <a class="navbar-brand" href="#page-top">Travel California</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a href="#download">DOWNLOAD</a></li>
+            <li class="nav-item"><a href="#features">FEATURES</a></li>
+            <li class="nav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -44,11 +52,11 @@
     <header class="masthead">
       <div class="container">
         <div class="row">
-          <div class="container-fluid col-lg-7 hero-text">
-            <h1 class="display-5">Download the <strong>Travel California</strong> app and explore California today!</h1>
-            <button class="btn btn-primary btn-lg" type="button">Example button</button>
+          <div class="container-fluid col-lg-6 hero-text">
+            <h1 class="">Download the <strong>Travel California</strong> app and explore California today!</h1>
+            <button class="btn btn-primary btn-lg" type="button">Download for Free!</button>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-6">
             <div class="device-container">
               <img src="./images/demo-screen-1 1.png" alt="iphone with travel california app.">
             </div>
@@ -79,7 +87,7 @@
   <!-- Testimonials -->
   <section class="testimonials" id="features">
     <div class="container">
-      <h2>What people are saying...</h2>
+      <h2 class="">What people are saying...</h2>
       <div class="row">
         <div class="col-lg-4">
           <div class="testimonial-item">
@@ -91,14 +99,14 @@
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item">
-            <img src="./images/testimonials-2.jpg" alt="">
+            <img src="./images/testimonials-3.jpg" alt="">
             <h5>Sarah S.</h5>
             <p>“Travel California is amazing. I’ve been using it to explore lots of super nice national parks.”</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item">
-            <img src="./images/testimonials-3.jpg" alt="">
+            <img src="./images/testimonials-2.jpg" alt="">
             <h5>Fred W.</h5>
             <p>“Thanks so much for making these free resources available to us!”</p>
           </div>
@@ -111,12 +119,12 @@
   <section class="signup-section" id="signup">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12 signup-box">
           <i></i>
           <h2>Subscribe to receive updates!</h2>
           <form>
-            <input type="text">
-            <button>Subscribe</button>
+            <input type="text" placeholder="  ENTER EMAIL ADDRESS...">
+            <button class="btn btn-primary">Subscribe</button>
           </form>
         </div>
       </div>
@@ -127,38 +135,41 @@
   <section class="contact-section bg-black" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <div class="card">
+        <div class="col-md-12 card-group">
+          <div class="card col-md-4 col-sm-12">
             <div class="card-body">
               <i></i>
-              <h4 class="text-uppercase"></h4>
-              <div></div>
+              <h4 class="text-uppercase">ADDRESS</h4>
+              <div>4923 Market Street, Sacramento, CA</div>
             </div>
           </div>
-          <div class="card">
+          <div class="card col-md-4 col-sm-12">
             <div class="card-body">
               <i></i>
-              <h4 class="text-uppercase"></h4>
-              <div></div>
+              <h4 class="text-uppercase">EMAIL</h4>
+              <div>hello@california.com</div>
             </div>
           </div>
-          <div class="card">
+          <div class="card col-md-4 col-sm-12">
             <div class="card-body">
               <i></i>
-              <h4 class="text-uppercase"></h4>
-              <div></div>
+              <h4 class="text-uppercase">PHONE</h4>
+              <div>1 (800) CALI-FORNIA</div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="social d-flex justify-content-center">
+        <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+        <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+        <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
       </div>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <div class="footer">
-        <div><p>"Copyright" Minhui Liu 2023</p></div>
-      </div>
+        <p>"Copyright" 2023</p>
     </div>
   </footer>
 
